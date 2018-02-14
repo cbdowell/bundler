@@ -1,0 +1,14 @@
+{
+  "name": "microbe-module-bundler",
+  "version": "1.0.0",
+  "description": "Next-generation ES6 module bundler",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+      "prebuild": "rm -rf dist",
+      "build": "rollup -c"
+  },
+  "devDependencies": {
+      "rollup": "^0.55.5"
+  }
+}
